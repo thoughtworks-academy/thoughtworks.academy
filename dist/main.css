@@ -70,14 +70,14 @@ header:after {
   height: 370px;
   background: #0CF;
   background: url(images/center.jpg) center no-repeat;
-  background-image: 100%;
+  background-size: 100%;
 }
 div.content {
   width: 960px;
   margin: 0 auto;
   overflow: hidden;
   position: relative;
-  top: -65px;
+  top: -45px;
 }
 div.content .menu {
   width: 200px;
