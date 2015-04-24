@@ -1,0 +1,29 @@
+{
+  "name": "thoughtworks.academy",
+  "version": "1.0.0",
+  "description": "Thoughtworks Academy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thoughtworks-academy/thoughtworks.academy.git"
+  },
+  "keywords": [
+    "Thoughtworks",
+    "Academy"
+  ],
+  "author": "wjlin@thoughtworks.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thoughtworks-academy/thoughtworks.academy/issues"
+  },
+  "homepage": "https://github.com/thoughtworks-academy/thoughtworks.academy",
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-connect": "^2.2.0",
+    "gulp-less": "^3.0.3",
+    "gulp-watch": "^4.2.4"
+  }
+}

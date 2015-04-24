@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    padding-left: 0;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+ul, li, dl, dt, dd {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    overflow: hidden;
+    height: 90px;
+    padding: 0 20px;
+
+    .logo {
+        height: 100px;
+        width: 320px;
+        background: url(./images/tw-logo.png) no-repeat left center;
+        background-size: 200px;
+        float: left;
+
+        h1 {
+            float: right;
+            padding-top: 15px;
+            transform: scaleY(1.2);
+        }
+    }
+
+    nav {
+        float: right;
+    }
+
+    &:after {
+        content: "";
+        clean: both;
+        height: 0;
+    }
+
+    .nav-list {
+        li {
+            display: inline-block;
+            line-height: 90px;
+            margin: 0 20px;
+
+            a {
+                color: #000;
+            }
+        }
+    }
+}
+
+.center-img {
+    height: 370px;
+    background: #0CF;
+    background: url(./images/center.jpg) center;
+}
+
+div.content {
+    width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    top: -65px;
+
+    .menu {
+        width: 200px;
+        float: left;
+        margin-top: 90px;
+        overflow: hidden;
+        
+        dt {
+            height: 30px;
+            line-height: 30px;
+            padding-left: 20px;
+            background: #E9E9E9;
+        }
+
+        dd {
+            font-size: 12px;
+            height: 26px;
+            line-height: 26px;
+            padding-left: 20px;
+            a {
+                color: #000;
+            }
+        }
+
+        dl.first dt{
+            background-color: #EA4A3C;
+            color: #FFF;
+        }
+    }
+
+    .article {
+        width: 722px;
+        padding: 14px;
+        float: right;
+        overflow: hidden;
+        border: 1px solid #000;
+    }
+
+    &::after {
+        content: "";
+        clean: both;
+    }
+}
+
+footer {
+    height: 10em;
+    background: #32393f;
+}
+
+
